@@ -7,4 +7,4 @@
 ## Instructors
 [Ioannis Rekleitis](https://cse.sc.edu/~yiannisr/)
 
-[Ibrahim Salman](https://cse.sc.edu/~ijsalman/)
+[Ibrahim Salman](https://github.com/18r441m)
