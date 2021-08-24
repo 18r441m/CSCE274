@@ -16,3 +16,47 @@
     * docker
     * docker-compose
     * duckietown-shell
+
+### Step by Step
+
+#### Prerequisites
+        sudo apt update && sudo apt upgrade
+
+#### Dependancies
+        sudo apt install -y python3-pip git git-lfs curl wget
+
+#### Docker
+* Set up the repository
+        
+        sudo apt-get install apt-transport-https ca-certificates gnupg lsb-release
+
+        curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+        echo \
+        "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+        $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+* Install Docker Engine 
+
+        sudo apt-get update
+        sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+* Add docker to sudo group
+
+        sudo groupadd docker
+        sudo usermod -aG docker $USER
+
+* Reboot
+
+#### Docker-compose
+
+        sudo apt-get install docker-compose
+
+#### Duckietown-shell
+* Install duckietown-shell (dts)
+        
+        pip3 install --no-cache-dir --user --upgrade duckietown-shell
+
+* Reboot
+
+* set dts version
