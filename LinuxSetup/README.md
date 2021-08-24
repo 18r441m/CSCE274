@@ -60,3 +60,5 @@
 * Reboot
 
 * set dts version
+
+        dts --set-version daffy
