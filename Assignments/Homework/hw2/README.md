@@ -167,7 +167,7 @@ In the third terminal connected to your docker container, source your environmen
 
 ## Part 6
 
-### Github submission
+### Github tags
 
 You can end all of the above processes (ctrl-c) and quit any docker containers (type “exit” in their terminal windows). Now we will push (save) the code that we just ran. For this assignment you are submitting the same code you were given, but in future assignments you will write new code.
 
