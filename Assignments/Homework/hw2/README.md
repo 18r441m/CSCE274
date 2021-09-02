@@ -69,9 +69,9 @@ ________
         $ dts devel run -M -- --entrypoint=/bin/bash
     
     Let’s dissect this command a bit: 
-    The command “dts devel run” will start a Duckietown-based container (like what is in the class repo you used as a template) with a configuration that lets it run like Docker images will run on your robot. This saves us from writing a very long docker run command with many options. Proper documentation on this tool is still forthcoming, but some information can be gleaned from looking over this tutorial if you are interested in deeper understanding: https://docs.duckietown.org/daffy/opmanual_developer/opmanual_developer/out/index.html This tutorial is NOT required for HW1.
+    The command “dts devel run” will start a Duckietown-based container (like what is in the class repo you used as a template) with a configuration that lets it run like Docker images will run on your robot. This saves us from writing a very long docker run command with many options. Proper documentation on this tool is still forthcoming, but some information can be gleaned from looking over this tutorial if you are interested in deeper understanding: https://docs.duckietown.org/daffy/opmanual_developer/opmanual_developer/out/index.html This tutorial is NOT required for HW2.
     
-    The -M option mounts the current project to the working directory of the docker container. This allows us to write code outside of the container and run it inside, which can be handy depending on which text editor you prefer. We won’t actually use this in HW1 but it will be our method for future homework/labs.
+    The -M option mounts the current project to the working directory of the docker container. This allows us to write code outside of the container and run it inside, which can be handy depending on which text editor you prefer. We won’t actually use this in HW2 but it will be our method for future homework/labs.
 
     Everything after -- is sent directly to the underlying docker run command. In this case, we just want to use a normal terminal, so we override the default entrypoint (script that runs when the container starts). You can experiment with scripts in the “launcher” directory of your repo if you want to avoid overriding the entrypoint each time.
 
@@ -112,7 +112,7 @@ ________
         $ source /code/catkin_ws/devel/setup.bash
 
 
-- Run the ROS node used in HW1:
+- Run the ROS node used in HW2:
 
         $ rosrun homework1 homework1.py
     You won’t see any output from this command unless there is an error.
@@ -180,8 +180,8 @@ You can end all of the above processes (ctrl-c) and quit any docker containers (
     
 - To tag this assignment, run the following in your repo directory:
 
-        $ git tag hw1
-        $ git push origin hw1
+        $ git tag hw2
+        $ git push origin hw2
     Remember to do this for each assignment you turn in!
 
 - Go to the repo releases page and download the zip of the tag your just created and upload to CSE Dropbox along with the content from the next step.
