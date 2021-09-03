@@ -114,7 +114,7 @@ ________
 
 - Run the ROS node used in HW2:
 
-        $ rosrun homework1 homework1.py
+        $ rosrun homework2 homework2.py
     You won’t see any output from this command unless there is an error.
 
 - Open a third terminal and run the docker exec command from above again.
@@ -123,7 +123,7 @@ In the third terminal connected to your docker container, source your environmen
 - Then run:
 
         $ rosnode list
-    You should see “/homework1” listed here.
+    You should see “/homework2” listed here.
 
 - This seems like a large number of terminals just to run a node and see what’s going on. Good news! There is a better way! Press ctrl-c in each of these three terminals to end their current process and move on to the next step.
 
@@ -133,7 +133,7 @@ In the third terminal connected to your docker container, source your environmen
 
 - From any of the terminals you used in the last part, run:
         
-        $ roslaunch homework1 homework1.launch
+        $ roslaunch homework2 homework2.launch
     This will print some debug text to the screen and then stop printing information.
 
 - From either other terminal from part 4, run:
@@ -144,17 +144,17 @@ In the third terminal connected to your docker container, source your environmen
 - In any terminal you set up, run:
 
         $ rostopic list
-    This shows all active topics. Two topics, “/rosout” and “/rosout_agg” are almost always shown and we can ignore them for this assignment. We will focus on the two topics that are part of homework1.
+    This shows all active topics. Two topics, “/rosout” and “/rosout_agg” are almost always shown and we can ignore them for this assignment. We will focus on the two topics that are part of homework2.
 
 
-    Let’s figure out what is going on with this ROS node so we can use it. Use the rostopic info tool for both homework1 topics. Record the publisher and subscriber for each one as well as the message type.
+    Let’s figure out what is going on with this ROS node so we can use it. Use the rostopic info tool for both homework2 topics. Record the publisher and subscriber for each one as well as the message type.
     
         $ rostopic info <topic>
 
-    One topic will say that is has a publisher but no subscriber, the other will be the opposite. This means that the ROS node homework1 is listening (subscribing) to one topic and talking (publishing) over the other. We can listen to the output of the ROS node using a command line tool. This is very useful for debugging. Run this command:
+    One topic will say that is has a publisher but no subscriber, the other will be the opposite. This means that the ROS node homework2 is listening (subscribing) to one topic and talking (publishing) over the other. We can listen to the output of the ROS node using a command line tool. This is very useful for debugging. Run this command:
 
         $ rostopic echo <topic>
-    For the topic that you think is being sent by the homework1 node. Leave this command running.
+    For the topic that you think is being sent by the homework2 node. Leave this command running.
 
 - You shouldn’t see any output right now because the node is not publishing anything. Usually, that means the node is waiting for some input. Let’s give it that input. You will need the name of the topic you decided the node is listening to as well as the type of the message. Run this in another terminal:
 
@@ -197,12 +197,12 @@ You can end all of the above processes (ctrl-c) and quit any docker containers (
 
     * The name of your docker container used?
 
-    * Which topic was being published by the homework1 node?
+    * Which topic was being published by the homework2 node?
 
-    * Which topic was being subscribed to by the homework1 node?
+    * Which topic was being subscribed to by the homework2 node?
 
     * What message type did the topics have?
 
-    * What is homework1 doing? What were the inputs/outputs you used?
+    * What is homework2 doing? What were the inputs/outputs you used?
 
 - Sumbit the zip file from the previous step to CSE Dropbox
