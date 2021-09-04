@@ -26,8 +26,10 @@ ________
 ## Part 3
 
 ### Customize Dockerfile and Run docker container
+- Clone the git repo from the previous part on your computer by running:
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-- Use “cd <your-git-repo-directory>” to change the directory to your repo.
+- Use “cd your-git-repo-directory” to change the directory to your repo.
 
 - Using the text editor of your choice, edit “Dockerfile”. If in doubt, type:
 
