@@ -207,4 +207,15 @@ You can end all of the above processes (ctrl-c) and quit any docker containers (
 
     * What is homework2 doing? What were the inputs/outputs you used?
 
+    * pdf format instructions
+        * Header with the code of the class, the semester and year, the homework number, and your name.
+          e.g., CSCE 274 Section 1 Fall 2021 – Homework 2 – Ibrahim Salman
+          
+        * Your answers, clearly identifying the answered assignments.
+
+        * The name of the file should be in the following format:
+        
+                csce274_fall2021_<hw#>_<last_name>.pdf
+                e.g., csce274_fall2021_hw2_salman.pdf
+
 - Sumbit the zip file from the previous step to CSE Dropbox
