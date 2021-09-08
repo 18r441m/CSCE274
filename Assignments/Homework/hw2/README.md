@@ -25,6 +25,8 @@ ________
 
 ## Part 3
 
+# All commands below are intended to be run from within your Linux install.
+
 ### Customize Dockerfile and Run docker container
 - Clone the git repo from the previous part on your computer by running:
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
