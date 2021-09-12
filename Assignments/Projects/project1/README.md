@@ -13,11 +13,11 @@
 --------
 
 ## Notes:
-- The box you recived has:
+- The box you received has:
     - the assembled Duckiebot (DB19)
     - battery
     - battery charger (micro usb cable)
-    - screw driver
+    - screwdriver
     - Micro SD Card
     - Micro SD Card USB reader
 - If you are using a virtual machine, you probably need to change your networking settings such that you can connect to the Duckiebot. Your adapter should be set to “bridged.” Refer to this documentation to set this correctly.
@@ -41,9 +41,9 @@
 
 ## Part 3
 ### The dashboard
-The duckiebot has several tools to help you debug problems and setup configurations. The dashboard allows you to see basic information about your robot.
+The duckiebot has several tools to help you debug problems and set up configurations. The dashboard allows you to see basic information about your robot.
 
-- follow the instruction in the [documentation](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/duckiebot_dashboard_setup.html) to setup the dashboard.
+- follow the instruction in the [documentation](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/duckiebot_dashboard_setup.html) to set up the dashboard.
 - Navigate to the Mission Control tab and take a screenshot similar to this for submission. 
 
     ** Make sure the screenshot includes the camera feed.
@@ -56,7 +56,7 @@ The duckiebot has several tools to help you debug problems and setup configurati
 ## Part 5
 ### Camera Calibration
 
-Calibrate your camera so that your duckiebot can see the world around it. Ensure that it is in focus first by twisting the lens while looking at the initial calibration window in the [instructions](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/camera_calib.html) until the image is sharp. 
+Calibrate your camera so that your duckiebot can see the world around it. Ensure it is in focus first by twisting the lens while looking at the initial calibration window in the [instructions](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/camera_calib.html) until the image is sharp. 
 
 ## Part 6
 ### Wheel Calibration
@@ -75,7 +75,7 @@ let’s put it all together and start the lane following demo. We’re going to 
 
         dts start_gui_tools <duckiebot_name>
 
-    When that starts you will have a connection to the ROS instance on the Duckiebot and can use debug tools. Run:
+    When that starts, you will connect to the ROS instance on the Duckiebot and can use debug tools. Run:
         
         rqt_graph
     And you should see a graph of all nodes and topics. Screenshot the most legible image of this graph as you can to turn it in.
@@ -120,7 +120,7 @@ let’s put it all together and start the lane following demo. We’re going to 
 
     Note that the robot does not handle intersections in this mode. Ensure that it follows lanes or recalibrate until it does.
 
-    Note that you can also start the demo through dts tools but you will not receive as much feedback, [instruction](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/demos.html).
+    Note that you can also start the demo through dts tools but you will not receive as much feedback [instruction](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/demos.html).
 
 - Demonstrate lane following to your instructor/TA by taking a video and uploading it to youtube. Make sure to follow the instructions below to include a link to the video in your submission.
 
@@ -141,10 +141,10 @@ NOTE: Your submission should consist of only one pdf file
         - FROM PART 7 (rqt_graph before)
         - FROM PART 7 (rqt_graph after)
 
-    * Write a few sentences about what happens on the robot when you run lane following. Which nodes start and how are they connected to what was running on the robot before? What do you think each of these new nodes does?
+    * Write a few sentences about what happens on the robot when you run lane following. Which nodes start, and how are they connected to what was running on the robot before? What do you think each of these new nodes does?
 
     * pdf format instructions
-        * Header with the code of the class, the semester and year, the homework number, and your name.
+        * Header with the class code, the semester and year, the homework number, and your name.
           e.g., CSCE 274 Section 1 Fall 2021 – Project 1 – Ibrahim Salman
           
         * Your answers, clearly identifying the answered assignments.
