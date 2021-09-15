@@ -3,6 +3,8 @@
 ### To build the images:
 	
 		cd CSCE274/Lectures/ROS/
+		
+-----------------
 
 		docker build . -t lecture:ros
 
