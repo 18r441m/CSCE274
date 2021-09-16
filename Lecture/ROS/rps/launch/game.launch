@@ -1,0 +1,6 @@
+<launch>
+  <group ns="RPS">
+    <node pkg="rps" name="rps" type="rps.py" />
+    <node pkg="rps" name="rps_player" type="player.py" />
+  </group>
+</launch>

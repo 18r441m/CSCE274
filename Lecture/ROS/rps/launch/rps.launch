@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="rps" name="rps" type="rps.py" />
+</launch>
