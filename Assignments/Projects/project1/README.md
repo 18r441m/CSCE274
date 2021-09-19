@@ -5,7 +5,7 @@
 
 --------
 
-#### Project 1 with go over Duckiebot Setup, Calibration, and Demonstration
+#### Project 1 will go over Duckiebot Setup, Calibration, and Demonstration
 
 --------
 ## Please read all instructions in the [duckiebot documentation](https://docs.duckietown.org/DT19/opmanual_duckiebot/out.pdf) carefully.
