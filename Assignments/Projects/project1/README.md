@@ -32,7 +32,7 @@
 
 ### Initialize your duckiebot
 - plug the Micro SD Card into the reader and plug that into your computer
-- during the first boot, the duckiebot should have internet connection. if you are going the ethernet route, you should Bridge the internet connection through your laptop with Ethernet. Follow 18.4. Option 2 in the [manual](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/duckiebot_network.html)
+- during the first boot, the duckiebot should have internet connection. if you are going the ethernet route, you should Bridge the internet connection through your laptop with Ethernet. Follow 18.4. Option 2 in the [manual](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/duckiebot_network.html). Also, [Video Instructions](https://www.youtube.com/watch?v=O6LD74Wzgl8)
 - Follow the steps in this [Documentation](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/setup_duckiebot.html) to flash the Micro SD Card.
     - for the hostname, use the hostname your group was assigned. ex: duck39
    
