@@ -57,6 +57,8 @@ The duckiebot has several tools to help you debug problems and set up configurat
 
 Calibrate your camera so that your duckiebot can see the world around it. Ensure it is in focus first by twisting the lens while looking at the initial calibration window in the [instructions](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/camera_calib.html) until the image is sharp. 
 
+### [Calibration Pattern](./calibration_pattern.pdf)
+
 ## Part 6
 ### Wheel Calibration
 
