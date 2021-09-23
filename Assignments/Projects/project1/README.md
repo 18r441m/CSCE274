@@ -145,14 +145,14 @@ NOTE: Your submission should consist of only one pdf file
     * Write a few sentences about what happens on the robot when you run lane following. Which nodes start, and how are they connected to what was running on the robot before? What do you think each of these new nodes does?
 
     * pdf format instructions
-        * Header with the class code, the semester and year, the homework number, and your name.
-          e.g., CSCE 274 Section 1 Fall 2021 – Project 1 – Ibrahim Salman
+        * Header with the class code, the semester and year, the homework number, and your group.
+          e.g., CSCE 274 Section 1 Fall 2021 – Project 1 – Group 23
           
         * Your answers, clearly identifying the answered assignments.
 
         * The name of the file should be in the following format:
         
-            csce274_fall2021_<project#>_<last_name>.pdf
-            e.g., csce274_fall2021_project1_salman.pdf
+            csce274_fall2021_<project#>_<group#>.pdf
+            e.g., csce274_fall2021_project1_group23.pdf
 
 
