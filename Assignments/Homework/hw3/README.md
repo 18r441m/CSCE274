@@ -14,7 +14,7 @@ In Homework 2, you sent and received messages to a ROS node manually, using rost
 
 ## Steps
 
-- Create a new ROS package in your repo. Reference [slides](https://cse.sc.edu/~ijsalman/db/content/lectures/lec03.pdf), [Video](https://youtu.be/Y45ZWp26lHs), and [ROS wiki](http://wiki.ros.org/ROS/Tutorials/CreatingPackage) for help
+- Create a new ROS package in your repo. Reference [slides](https://cse.sc.edu/~ijsalman/db/content/lectures/lec03.pdf), [Video1](https://youtu.be/Y45ZWp26lHs), [video2](https://www.youtube.com/watch?v=txadk4vU5LE), and [ROS wiki](http://wiki.ros.org/ROS/Tutorials/CreatingPackage) for help
 
     NOTE: you may need to change the permissions of this folder so that it is accessible outside the docker container:
         
