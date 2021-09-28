@@ -80,7 +80,7 @@ There are a few methods to revise your code:
 
 
 
-## Part 8
+## Part 2
 
 ### Dropbox submission
 
