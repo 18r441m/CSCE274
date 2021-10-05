@@ -1,7 +1,7 @@
 ## Project 2 (10% over the final grade) 
 
 ### Assigned: September 27, 2021
-### Due: October 14, 2021
+### Due: October 19, 2021
 
 --------
 
