@@ -5,7 +5,7 @@
 
 --------
 
-#### Homework 3 will ask you to:
+#### Homework 5 will ask you to:
 - Create a new ROS package
 - Create a single ROS node that contains one subscriber and one publisher
 - Remap a topic used in homework 3
