@@ -73,7 +73,7 @@ Homework 2 provided a node that sums the input it receives and posts it to the t
                 csce274_fall2021_<hw#>_<last_name>.pdf
                 e.g., csce274_fall2021_hw5_salman.pdf
 
-- Sumbit the HW5 Github TAG zip file from the previos step to CSE Dropbox
+- Sumbit the hw5 Github TAG zip file from the previos step to CSE Dropbox
 
 
 
