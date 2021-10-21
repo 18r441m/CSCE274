@@ -43,7 +43,7 @@ In Homework 2, you sent and received messages to a ROS node manually, using rost
 
 ## Dropbox submission
 
-- Sumbit the hw3 tag zip file from the previous step to CSE Dropbox
+- Submit the hw3 tag zip file from the previous step to CSE Dropbox
 
 
 

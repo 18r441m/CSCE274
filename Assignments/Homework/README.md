@@ -4,4 +4,5 @@
 * [Homework 02](./hw2)
 * [Homework 03](./hw3)
 * [Homework 04](https://cse.sc.edu/~ijsalman/db/content/homework/hw04.pdf)
+* [Homework 05](./hw5)
 
