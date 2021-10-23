@@ -9,7 +9,7 @@
 
 --------
 
-### Part 1
+## Part 1
 
 - Run the lane controller demo on your Duckiebot. Look at the inputs and outputs of the lane_controller_node. 
     - You should be somewhat familiar with the output but may not be familiar with the exact topic. Note that this time, it goes to the switch node, not straight to kinematics. This is because lane following waits for a signal from keyboard control before it starts. You will want to do the same.
