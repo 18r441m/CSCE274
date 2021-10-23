@@ -20,7 +20,7 @@ NOTE: Do NOT modify homework 2 or homework 3 packages for this assignment.
 
 ________
 
-Homework 2 provided a node that sums the input it receives and posts it to the total topic. Let’s pretend this is part of a bigger project. Someone is using this to measure how far a wheel has gone (like an odometer) but realized that they were measuring in feet, but actually need the result in meters. We could rewrite some code to make these changes, but other people already like the code as is. Instead, let’s make a new package with a new node that subscribes to /homework1/total and publishes a new topic (call it what you like) with the same data, but in meters. We will also need to remap this topic to the subscriber node you created in homework 3.
+Homework 2 provided a node that sums the input it receives and posts it to the total topic. Let’s pretend this is part of a bigger project. Someone is using this to measure how far a wheel has gone (like an odometer) but realized that they were measuring in feet, but actually need the result in meters. We could rewrite some code to make these changes, but other people already like the code as is. Instead, let’s make a new package with a new node that subscribes to /homework2/total and publishes a new topic (call it what you like) with the same data, but in meters. We will also need to remap this topic to the subscriber node you created in homework 3.
 
 
 --------
