@@ -23,8 +23,7 @@
 
 - Some notes on writing your code:
     - Use whichever method of syncing and revising code worked for you in Project 2
-    - Do NOT include your Duckiebot’s name in the topics (or anywhere else) in your code. Instead, use a namespace in the launch file as required in Project2. This allows your code to be run on any Duckiebot.
-    - You will need to include several other Duckietown nodes in your launch file. Take a look at how the Duckietown lane following demo launch file works or look at the example launch file at the end of these instructions.
+    - You will need to include several other Duckietown nodes in your launch file. Take a look at how the Duckietown lane following demo launch file works or look at the [example launch file](./example.launch) in this project's directory.
     - This is a real robot with real hardware, so there will be errors in sensing. You may want to threshold (limit) the maximum/minimum errors given to your controller and/or the maximum control signal you will send. Be patient and work out what your robot is telling you versus what it should be doing.
 
 - To prove it is your code running, and not the lane following demo, please do the following:
