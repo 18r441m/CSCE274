@@ -1,7 +1,7 @@
 ## Project 3 (10% over the final grade) 
 
 ### Assigned: October 23, 2021
-### Due: November 07, 2021
+### Due: November 09, 2021
 
 --------
 
