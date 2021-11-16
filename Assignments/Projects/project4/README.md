@@ -13,8 +13,6 @@
 
 ## Steps
 
-- Create a lane controller that uses a PID controller (not all terms are necessarily needed) to keep your robot in the lane. Note that two PID controllers (one for each parameter) added together tends to work best.
-
 - Tune your controller(s) until they work well on your Duckietown mats.
 
 - To prove it is your code running, and not the lane following demo, please do the following:
