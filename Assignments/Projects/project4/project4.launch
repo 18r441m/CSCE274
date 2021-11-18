@@ -6,37 +6,38 @@
 
     <!-- start Duckietown nodes -->
     <arg name="demo_name" value="lane_following"/>
+	
     <!-- start basic args -->
     <include file="$(find duckietown_demos)/launch/master.launch">
-	    <!-- Basic arguments -->
-		<arg name="veh" value="$(arg veh)"/>
-        <arg name="demo_name" value="$(arg demo_name)"/>
-		<arg name="param_file_name" value="default" />
-		<arg name="visualization" value="true" />
+	<!-- Basic arguments -->
+	<arg name="veh" value="$(arg veh)"/>
+	<arg name="demo_name" value="$(arg demo_name)"/>
+	<arg name="param_file_name" value="default" />
+	<arg name="visualization" value="true" />
 
-	    <!-- Finite state machine -->
-	    <arg name="fsm" value="true"/>
-	    <arg name="/fsm/logic_gate" value="false"/>
+	<!-- Finite state machine -->
+	<arg name="fsm" value="true"/>
+	<arg name="/fsm/logic_gate" value="false"/>
 
-		<!-- Camera and anti intagram -->
-		<arg name="/camera/raw" value="false" />
-		<arg name="anti_instagram" value="true" />
+	<!-- Camera and anti intagram -->
+	<arg name="/camera/raw" value="false" />
+	<arg name="anti_instagram" value="true" />
 
-	    <!-- Lane Following stack -->
-	    <arg name="lane_following" value="true"/>
-	    <arg name="/lane_following/line_detection" value="true"/>
-	    <arg name="line_detector_param_file_name" value="default" />
-	    <arg name="/lane_following/ground_projection" value="true"/>
-	    <arg name="/lane_following/lane_filter" value="true"/>
-	    <arg name="/lane_following/lane_controller" value="false"/>
+	<!-- Lane Following stack -->
+	<arg name="lane_following" value="true"/>
+	<arg name="/lane_following/line_detection" value="true"/>
+	<arg name="line_detector_param_file_name" value="default" />
+	<arg name="/lane_following/ground_projection" value="true"/>
+	<arg name="/lane_following/lane_filter" value="true"/>
+	<arg name="/lane_following/lane_controller" value="false"/>
     </include>
     <group ns="$(arg veh)">
-		<param name="$(arg veh)/project4/duck" type="str" value="$(arg veh)" />
-		<param name="$(arg veh)/project4/vel_min" type="double" value="0.0" />
-		<param name="$(arg veh)/project4/vel_max" type="double" value="0.5" />
-		<param name="$(arg veh)/project4/p" type="double" value="1.0" />
-		<param name="$(arg veh)/project4/i" type="double" value="1.0" />
-		<param name="$(arg veh)/project4/d" type="double" value="1.0" />
-		<node pkg="csce274project4" name="csce274project4" type="project4.py"/>
+	<param name="$(arg veh)/project4/duck" type="str" value="$(arg veh)" />
+	<param name="$(arg veh)/project4/vel_min" type="double" value="0.0" />
+	<param name="$(arg veh)/project4/vel_max" type="double" value="0.5" />
+	<param name="$(arg veh)/project4/p" type="double" value="1.0" />
+	<param name="$(arg veh)/project4/i" type="double" value="1.0" />
+	<param name="$(arg veh)/project4/d" type="double" value="1.0" />
+	<node pkg="csce274project4" name="csce274project4" type="project4.py"/>
     </group>
 </launch>
