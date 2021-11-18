@@ -44,6 +44,7 @@ NOTE: Your submission should consist of one PDF and one ZIP file.
         - What final PID gain values did you use?
         - A description of the difference between this project (4) and the previous project (3)
         - A description of any problems you had completing this project
+        - List each Group member's contribution
 
 
     * pdf format instructions
