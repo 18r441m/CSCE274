@@ -32,12 +32,12 @@
 	<arg name="/lane_following/lane_controller" value="false"/>
     </include>
     <group ns="$(arg veh)">
-	<param name="$(arg veh)/project4/duck" type="str" value="$(arg veh)" />
-	<param name="$(arg veh)/project4/vel_min" type="double" value="0.0" />
-	<param name="$(arg veh)/project4/vel_max" type="double" value="0.5" />
-	<param name="$(arg veh)/project4/p" type="double" value="1.0" />
-	<param name="$(arg veh)/project4/i" type="double" value="1.0" />
-	<param name="$(arg veh)/project4/d" type="double" value="1.0" />
+	<param name="project4/duck" type="str" value="$(arg veh)" />
+	<param name="project4/vel_min" type="double" value="0.0" />
+	<param name="project4/vel_max" type="double" value="0.5" />
+	<param name="project4/p" type="double" value="1.0" />
+	<param name="project4/i" type="double" value="1.0" />
+	<param name="project4/d" type="double" value="1.0" />
 	<node pkg="csce274project4" name="csce274project4" type="project4.py"/>
     </group>
 </launch>
