@@ -7,3 +7,4 @@
 * [Homework 05](./hw5)
 * [Homework 06](https://cse.sc.edu/~ijsalman/db/content/homework/hw06.pdf)
 * [Homework 07](https://cse.sc.edu/~ijsalman/db/content/homework/hw07.pdf)
+* [Homework 07](https://cse.sc.edu/~ijsalman/db/content/homework/hw08.pdf)
