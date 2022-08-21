@@ -10,7 +10,7 @@ ________
 
 ## Part 1
 
-### Setup your laptop and install docker, docker-compose and dts following the steps on the [DTS Manual](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/laptop_setup.html)
+### Setup your laptop and install docker, docker-compose and dts following the steps from the [DTS Manual](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/laptop_setup.html)
 
 
 ## Part 2
@@ -19,7 +19,7 @@ ________
 
 - Create an account (if you don’t have one already) on [Github](https://github.com)
 
-- Fill out this [form](https://forms.gle/bahZBYN4N6vwoZJr7) accurately to recive points for your work, else I might not know who did the work.
+- Fill out this [form](https://forms.gle/bahZBYN4N6vwoZJr7) accurately to receive points for your work; else, I might not know who did the work.
 
 - Accept the Github Classroom [Assignment Repo]().
 
