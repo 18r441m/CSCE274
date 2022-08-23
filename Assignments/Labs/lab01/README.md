@@ -21,7 +21,7 @@ ________
 
 - Fill out this [form](https://forms.gle/bahZBYN4N6vwoZJr7) accurately to receive points for your work; else, I might not know who did the work.
 
-- Accept the Github Classroom [Assignment Repo]().
+- Accept the Github Classroom [Assignment Repo](https://classroom.github.com/a/VWnvFU1I).
 
 ## Part 3
 
