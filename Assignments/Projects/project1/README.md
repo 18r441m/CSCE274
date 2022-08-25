@@ -54,6 +54,6 @@ NOTE: Your submission should consist of only one pdf file
 
   * The name of the file should be in the following format:
 
-    csce274_fall2021_<project#>_<username>.pdf
+    csce274_fall2022_<project#>_<username>.pdf
   
     e.g., csce274_fall2022_project1_ijsalman.pdf
