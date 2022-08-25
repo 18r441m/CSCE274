@@ -1,4 +1,4 @@
-## Project 1 (10% of final grade) 
+## Project 1
 
 ### Assigned: Aug 25, 2022
 ### Due: September 08, 2022
