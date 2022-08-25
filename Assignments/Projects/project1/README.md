@@ -28,7 +28,7 @@
 ## Part 4 
 ### Setup duckietown from the big package you got (10%):
 
-- Make sure your package has the laminated [calibration sheet](), tape, and most importantly, Duckies.
+- Make sure your package has the laminated [calibration sheet](./calibration_pattern.pdf), tape, and most importantly, Duckies.
 
 ## Part 5
 ### Dropbox submission
