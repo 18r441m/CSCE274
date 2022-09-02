@@ -1,7 +1,7 @@
 ## Lab 1 (3% of final grade) 
 
 ### Assigned: Aug 23, 2022
-### Due: Sep 01, 2022
+### Due: Sep 05, 2022
 
 --------
 
