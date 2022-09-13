@@ -1,7 +1,7 @@
 ## Project 1
 
 ### Assigned: Aug 25, 2022
-### Due: September 08, 2022
+### Due: September 15, 2022
 
 --------
 
