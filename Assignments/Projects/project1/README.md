@@ -1,7 +1,7 @@
 ## Project 1
 
 ### Assigned: Aug 25, 2022
-### Due: September 15, 2022
+### Due: September 19, 2022
 
 --------
 
@@ -25,12 +25,7 @@
 
 - Ensure you have connection to the duckiebot
 
-## Part 4 
-### Setup duckietown from the big package you got (10%):
-
-- Make sure your package has the laminated [calibration sheet](./calibration_pattern.pdf), tape, and most importantly, Duckies.
-
-## Part 5
+## Part 4
 ### Dropbox submission
 
 NOTE: Your submission should consist of only one pdf file
