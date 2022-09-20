@@ -40,7 +40,7 @@ let’s put it all together and start the lane following demo. We’re going to 
         rqt_graph
     And you should see a graph of all nodes and topics. Screenshot the most legible image of this graph as you can to turn it in.
 
-- Start keyboard control as in part 4.
+- Start keyboard control as in part 1.
 
         dts duckiebot keyboard_control <duckiebot_name>
 
