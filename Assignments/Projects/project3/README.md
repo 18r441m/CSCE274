@@ -79,7 +79,7 @@ There are a few methods to revise your code:
 
 ### Dropbox submission
 
-NOTE: Your submission should consist of one PDF and one ZIP file.
+NOTE: Your submission should consist of one PDF file & (make sure you Tag your latest code you want to use as your submission code on the Github repo).
 
 - Submit a PDF to CSE Dropbox with:
 
