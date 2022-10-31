@@ -8,6 +8,7 @@
 ### The goal of the project is to program your robot to move. The instruction will take you step by step through the process. You will start by inspecting the Duckiebot to figure out which topics and messages control the wheels. Then, you will create a new package with a few nodes that make your Duckiebot move in different ways.
 
 ## Part 1
+- Accept the [Github Classroom Assignment Repo](https://classroom.github.com/a/BfLxZ2hs) (This will be the repo we will use for all projects for the rest of the semester.)
 
 - Start your robot and start keyboard control on your laptop. Run 
 
