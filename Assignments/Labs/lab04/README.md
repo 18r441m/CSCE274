@@ -5,7 +5,7 @@
 
 --------
 
-#### Lab 05 will ask you to:
+#### Lab 04 will ask you to:
 - Create a new ROS package
 - Create a single ROS node that contains one subscriber and one publisher
 - Remap a topic used in lab 2
