@@ -9,6 +9,8 @@
 
 --------
 
+## Use the [Github Classroom Assignment Repo](https://classroom.github.com/a/BfLxZ2hs) (The one you used in project 3)
+
 ## Part 1
 
 - Run the lane controller demo on your Duckiebot. Look at the inputs and outputs of the lane_controller_node. 
